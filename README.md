@@ -1,7 +1,12 @@
 # TamatemTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
-
+This project was generated with  
+1- [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3
+2- SCSS for a structure and import files.
+3- Angular Material Design.
+4- I used FormGroub to validate the login-form requested with error catch in HTML template
+4- Responsive Design with Media Queries and flexbox.
+5- I generated a component in a lazy-loading module in Auth folder.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
