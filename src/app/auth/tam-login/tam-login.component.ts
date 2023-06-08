@@ -11,7 +11,7 @@ export class TamLoginComponent implements OnInit {
   loginForm!: FormGroup;
 
   constructor(private fb: FormBuilder,) { }
-  email = new FormControl('', [Validators.required, Validators.email]);
+  // email = new FormControl('', [Validators.required, Validators.email]);
 
 
   ngOnInit() {
@@ -20,10 +20,16 @@ export class TamLoginComponent implements OnInit {
 
   onloginForm() {
     this.loginForm = new FormGroup({
-      email: new FormControl(''),
-      password: new FormControl(''),
+      email: new FormControl('',[Validators.required, Validators.email]),
+      password: new FormControl('',[Validators.required, Validators.pattern('[0-9]*')]),
     });
 
   }
 
+
+  submit(e:any){
+    
+    console.log(this.loginForm.value, "value",e);
+    
+  }
 }

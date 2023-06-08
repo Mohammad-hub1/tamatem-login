@@ -2,14 +2,12 @@
   width: 328px;
   height: 326px;
   opacity: 1;
-  display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: none !important
 }
 
 .img {
-  top: 303px;
-  left: 151px;
   width: 128px;
   height: 128px;
   opacity: 1;
@@ -25,12 +23,8 @@
   opacity: 100%;
 }
 
-.example-form {
-  // min-width: 150px;
-  // max-width: 500px;
+.form {
   width: 100%;
-  // margin-top: 16px;
-  // margin-bottom:18px;
 }
 
 .input {
@@ -70,6 +64,6 @@
 
 .login-place {
   width: 100%;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.6rem;
   margin-right:1rem ;
 }
